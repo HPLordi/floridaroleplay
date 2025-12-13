@@ -175,47 +175,47 @@
   },
   "features": [
     {
-      "id": "custom-framework",
-      "title": "Florida Style",
-      "description": "Proprietary technology designed for seamless, cinematic gameplay experiences",
-      "icon": "Code2",
-      "highlight": true
-    },
-    {
-      "id": "gang-system",
-      "title": "Territory Management",
-      "description": "Strategic control zones with dynamic influence and progression systems",
-      "icon": "Users",
-      "highlight": true
-    },
-    {
       "id": "economy",
-      "title": "Dynamic Economy",
-      "description": "Complex economic ecosystem with multiple revenue streams and market dynamics",
+      "title": "Realistisches Wirtschaftssystem",
+      "description": "Realistisches Wirtschaftssystem mit Preisen die je nach Bedarf der Ware schwanken",
       "icon": "DollarSign",
       "highlight": false
     },
     {
       "id": "housing",
-      "title": "Real Estate Portfolio",
-      "description": "Acquire properties ranging from starter apartments to luxury penthouses",
+      "title": "Häuser System",
+      "description": "Immobielenmakler verkaufen dir dein Traumhaus",
       "icon": "Home",
       "highlight": false
     },
     {
       "id": "vehicles",
-      "title": "300+ Vehicles",
-      "description": "Extensive collection from classic cars to cutting-edge supercars",
+      "title": "200+ Fahrzeuge",
+      "description": "Über 200 Lore Friendly Fahrzeuge und es werden immer mehr",
       "icon": "Car",
       "highlight": false
     },
     {
-      "id": "heists",
-      "title": "Heist Operations",
-      "description": "Orchestrate complex operations requiring strategy, timing, and teamwork",
-      "icon": "Lock",
-      "highlight": true
-    }
+      "id": "businesses",
+      "title": "Gründe dein eigenes Unternehmen",
+      "description": "Jedes Geschäft, jede Tankstelle, jede Waschanlange und vieles mehr kannst du besitzen",
+      "icon": "Busnisses",
+      "highlight": false
+    },
+    {
+      "id": "scripts",
+      "title": "Exklusive Möglichkeiten",
+      "description": "Von Ölspuren/Nagelspuren als Falle für Cops bis hin zum selber Kochen hast du bei uns unzählige Möglichkeiten",
+      "icon": "Tool",
+      "highlight": false
+    },
+    {
+      "id": "map",
+      "title": "GTA Map aber ganz anders",
+      "description": "Wir haben die Map durch unzählige MLO's so verändert, dass sie gar nicht mehr wiederzuerkennen ist",
+      "icon": "House",
+      "highlight": false
+    }    
   ],
   "gallery": {
     "images": [
@@ -291,153 +291,6 @@
       { "id": "events", "name": "Events" },
       { "id": "roleplay", "name": "Roleplay" },
       { "id": "vehicles", "name": "Vehicles" }
-    ]
-  },
-  "jobs": {
-    "categories": [
-      {
-        "id": "emergency",
-        "name": "Emergency Services",
-        "color": "green",
-        "legal": true
-      },
-      {
-        "id": "civilian",
-        "name": "Civilian",
-        "color": "blue",
-        "legal": true
-      },
-      {
-        "id": "criminal",
-        "name": "Criminal",
-        "color": "red",
-        "legal": false
-      },
-      {
-        "id": "business",
-        "name": "Business",
-        "color": "gold",
-        "legal": true
-      },
-      {
-        "id": "government",
-        "name": "Government",
-        "color": "blue",
-        "legal": true
-      },
-      {
-        "id": "medical",
-        "name": "Medical",
-        "color": "green",
-        "legal": true
-      },
-      {
-        "id": "mechanic",
-        "name": "Mechanic",
-        "color": "orange",
-        "legal": true
-      }
-    ],
-    "list": [
-      {
-        "id": "police",
-        "name": "Police Officer",
-        "category": "emergency",
-        "description": "Uphold justice and maintain order throughout Los Santos",
-        "requirements": ["18+ years old", "Clean record", "Interview required"],
-        "salary": 300,
-        "image": "https://images.unsplash.com/photo-1596265371388-43edbaadab94?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "ems",
-        "name": "Paramedic",
-        "category": "emergency",
-        "description": "Emergency medical response and critical care services",
-        "requirements": ["16+ years old", "Medical training", "Active player"],
-        "salary": 250,
-        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "mechanic",
-        "name": "Mechanic",
-        "category": "mechanic",
-        "description": "Automotive specialist providing repair and customization services",
-        "requirements": ["No requirements", "Training provided"],
-        "salary": 150,
-        "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "taxi",
-        "name": "Taxi Driver",
-        "category": "civilian",
-        "description": "Professional transportation services throughout Los Santos",
-        "requirements": ["Valid license", "Clean driving record"],
-        "salary": 100,
-        "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "dealer",
-        "name": "Drug Dealer",
-        "category": "criminal",
-        "description": "Manage distribution networks and territory operations",
-        "requirements": ["Street reputation", "Gang affiliation"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "gunrunner",
-        "name": "Arms Dealer",
-        "category": "criminal",
-        "description": "Specialized equipment broker and logistics coordinator",
-        "requirements": ["Connections", "Trust level"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "lawyer",
-        "name": "Lawyer",
-        "category": "business",
-        "description": "Legal representation and courtroom advocacy services",
-        "requirements": ["Bar exam", "Good standing"],
-        "salary": 350,
-        "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "judge",
-        "name": "Judge",
-        "category": "government",
-        "description": "Preside over legal proceedings and ensure justice",
-        "requirements": ["Legal experience", "Application required"],
-        "salary": 500,
-        "image": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "doctor",
-        "name": "Doctor",
-        "category": "medical",
-        "description": "Lead medical professional providing specialized healthcare",
-        "requirements": ["Medical license", "Experience required"],
-        "salary": 400,
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "nurse",
-        "name": "Nurse",
-        "category": "medical",
-        "description": "Healthcare professional supporting medical operations",
-        "requirements": ["16+ years old", "Training provided"],
-        "salary": 200,
-        "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "auto_mechanic",
-        "name": "Auto Mechanic",
-        "category": "mechanic",
-        "description": "Technical specialist in vehicle maintenance and modifications",
-        "requirements": ["Basic knowledge", "Tools provided"],
-        "salary": 180,
-        "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
-      }
     ]
   },
   "rules": [
@@ -585,42 +438,42 @@
   "team": [
     {
       "id": "john-doe",
-      "name": "John 'Boss' Doe",
-      "role": "Server Owner",
+      "name": "Flocky",
+      "role": "Project Lead",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-      "discord": "bigboss",
-      "description": "Founder and visionary leader of NightCity Roleplay",
+      "discord": "flocky86",
+      "description": "Leitung des Florida Rolelplay Projektes",
       "badge": "FOUNDER",
       "status": "active"
     },
     {
       "id": "jane-smith",
-      "name": "Jane 'Control' Smith",
-      "role": "Head Administrator",
+      "name": "Lordi",
+      "role": "Assistant Project Lead",
       "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-      "discord": "control",
-      "description": "Ensuring server integrity and exceptional player experiences",
-      "badge": "ADMIN",
+      "discord": "hp_lordi",
+      "description": "Stellvertretende Leitung des Florida Roleplay Projektes",
+      "badge": "Founder",
       "status": "active"
     },
     {
       "id": "mike-wilson",
-      "name": "Mike 'Tech' Wilson",
-      "role": "Lead Developer",
+      "name": "Gino",
+      "role": "Management",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      "discord": "techguy",
-      "description": "Lead technical architect creating innovative gameplay systems",
-      "badge": "DEV",
+      "discord": "gino44jiggo",
+      "description": "Manager des Florida Roleplay Projektes",
+      "badge": "Manager",
       "status": "active"
     },
     {
       "id": "sarah-jones",
-      "name": "Sarah 'Peace' Jones",
-      "role": "Senior Moderator",
+      "name": "Henker",
+      "role": "Team-Management",
       "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
-      "discord": "peacekeeper",
-      "description": "Community liaison and conflict resolution specialist",
-      "badge": "MOD",
+      "discord": "lordhenker321",
+      "description": "Manager des Teams des Florida Roleplay Projektes",
+      "badge": "Manager",
       "status": "active"
     }
   ],
