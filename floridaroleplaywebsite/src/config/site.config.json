@@ -23,7 +23,7 @@
     "url": "https://floridaroleplay.com"
   },
   "legal": {
-    "companyName": "NightCity Roleplay",
+    "companyName": "Florida Roleplay",
     "email": "contact@nightcity-rp.com",
     "privacyEmail": "privacy@nightcity-rp.com",
     "dpoEmail": "dpo@nightcity-rp.com",
@@ -45,7 +45,7 @@
     "tagline": "Dein Florida Erlebnis",
     "slogan": "Der fortgeschrittenste Server Deutschlands",
     "description": "Trete noch heute dem einzigen deutschem Lore Friendly San Andreas Server im FLORIDA Style.",
-    "ip": "http://148.251.37.26:50005",
+    "ip": "http://148.251.37.26:40129",
     "port": "50005",
     "discord": "dsc.gg/germanfloridarp",
     "maxPlayers": 256,
@@ -62,13 +62,13 @@
       "businesses": "Finds im RP heraus+"
     },
     "loadingTips": [
-      "Every character has a story. What's yours?",
-      "In this city, reputation is everything",
-      "Choose your allies carefully",
-      "Your decisions shape the narrative",
-      "Quality roleplay creates legendary moments",
-      "Build your legacy, one choice at a time",
-      "Welcome to your cinematic experience"
+      "Jeder Charakter hat eine Geschichte. Wie lautet deine?",
+      "In dieser Stadt ist dein Ruf alles.",
+      "Wähle deine Verbündeten mit Bedacht.",
+      "Deine Entscheidungen formen die Geschichte.",
+      "Qualitatives Rollenspiel erschafft legendäre Momente.",
+      "Baue dein Vermächtnis auf – Entscheidung für Entscheidung.",
+      "Willkommen in deinem cineastischen Erlebnis."
     ]
   },
   "images": {
@@ -165,9 +165,9 @@
       "offlineText": "Offline"
     },
     "common": {
-      "playNow": "PLAY NOW",
+      "playNow": "SPIELEN",
       "discord": "DISCORD",
-      "loading": "Loading...",
+      "loading": "Laden...",
       "privacy": "Privacy",
       "terms": "Terms",
       "cookies": "Cookies"
